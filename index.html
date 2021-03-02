@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FinSANA</title>
-  
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  
+
   <!-- Owl Carousel -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
@@ -20,16 +20,76 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
   <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap">
 
   <!-- My CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <!-- <img src="assets/testback-1.jpg" style="position: absolute; z-index: 99; top: 0; left: 0; width: 100%; opacity: 0.5"> -->
 
   <header>
-    
+    <nav class="navbar navbar-expand-xl back-white top-fixed shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          Fin<b>SANA</b>
+        </a>
+
+        <div class="navbar-right ml-auto">
+          <a class="nav-link" href="#">Login</a>
+          <a class="nav-btn" href="#">Investor Relations</a>
+
+          <div class="lang-dropdown dropdown d-none d-xl-inline-block">
+            <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+              <img class="global-icon" src="assets/img/global.png" alt="global">
+            </button>
+
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#">English</a>
+              <a class="dropdown-item" href="#">Spanish</a>
+              <a class="dropdown-item" href="#">French</a>
+            </div>
+          </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon">
+            <img class="toggler-icon" src="assets/img/toggler.png" alt="toggler">
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+            <li class="nav-item lang-dropdown dropdown d-inline-block d-xl-none">
+              <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                <img class="global-icon" src="assets/img/global.png" alt="global">
+              </button>
+
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">Spanish</a>
+                <a class="dropdown-item" href="#">French</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <!-- jQuery -->
@@ -46,7 +106,7 @@
 
   <!-- AOS Animation -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  
+
   <!-- My JavaScript -->
   <script src="assets/js/script.js"></script>
 </body>

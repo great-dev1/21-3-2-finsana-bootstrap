@@ -1,0 +1,131 @@
+body {
+  /* background-color: lightgrey; */
+  color: #191919;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 20px 8px;
+}
+
+.navbar-brand {
+  margin-right: 0;
+  font-size: 20px;
+  color: #191919;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover {
+  color: #00c974;
+}
+
+.nav-item {
+  padding: 0 13px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #191919;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #00c974;
+}
+
+.nav-btn {
+  padding: 10px 14px;
+  border-radius: 100px;
+  margin-left: 1px;
+  margin-right: 5px;
+  font-size: 14px;
+  color: white;
+  background-color: #00c974;
+  transition: 0.3s;
+}
+
+.nav-btn:hover {
+  color: white;
+  background-color: grey;
+}
+
+.lang-dropdown {
+  padding: 8px 10px;
+}
+
+.dropdown-toggle {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown-toggle:focus {
+  border: none;
+  outline: none;
+}
+
+.dropdown-toggle::after {
+  margin-left: 0;
+}
+
+.global-icon {
+  width: 30px;
+}
+
+.dropdown-item {
+  font-size: 14px;
+}
+
+.navbar-toggler {
+  padding: 0;
+}
+
+.navbar-toggler:focus {
+  border: none;
+  outline: none;
+}
+
+.toggler-icon {
+  width: 30px;
+  margin-top: 5px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .navbar {
+    padding: 32px 10px;
+  }
+  .navbar-brand {
+    margin-right: 42px;
+    font-size: 31px;
+  }
+  .nav-link {
+    padding: 8px 16px;
+    font-size: 19px;
+  }
+  .navbar-right {
+    position: absolute;
+    right: 11.5vw;
+  }
+  .nav-btn {
+    padding: 17px 20px 20px;
+    margin-left: 26px;
+    margin-right: 16px;
+    font-size: 19px;
+  }
+  .dropdown-item {
+    font-size: 16px;
+  }
+}
