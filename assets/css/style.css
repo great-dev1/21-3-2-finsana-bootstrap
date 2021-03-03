@@ -125,6 +125,7 @@ a, a:hover {
 
 .global-icon {
   width: 28px;
+  height: auto;
 }
 
 .dropdown-item {
@@ -142,6 +143,7 @@ a, a:hover {
 
 .toggler-icon {
   width: 30px;
+  height: auto;
   margin-top: 5px;
 }
 
@@ -215,6 +217,7 @@ a, a:hover {
   display: block;
   width: 95%;
   max-width: 480px;
+  height: auto;
   margin: 25px auto 0;
 }
 
@@ -346,6 +349,7 @@ a, a:hover {
 
 .check-icon {
   width: 18px;
+  height: auto;
 }
 
 .stat-group {
@@ -484,6 +488,7 @@ a, a:hover {
 
 .blog-img {
   width: 100%;
+  height: auto;
 }
 
 .blog-content {

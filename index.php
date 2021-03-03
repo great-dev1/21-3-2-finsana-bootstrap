@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a webpage for making your inancial goa smarter">
+  
   <title>FinSANA</title>
 
   <!-- Bootstrap -->
@@ -42,7 +44,7 @@
           <a class="nav-btn" href="#">Investor Relations</a>
           <div class="lang-dropdown dropdown d-none d-xl-inline-block">
             <button type="button" class="dropdown-toggle" data-toggle="dropdown">
-              <img class="global-icon" src="assets/img/global.png" alt="global">
+              <img class="global-icon img-fluid" src="assets/img/global.png" alt="global">
             </button>
             <div class="dropdown-menu dropdown-menu-right">
               <a class="dropdown-item" href="#">English</a>
@@ -74,7 +76,7 @@
             </li>
             <li class="nav-item lang-dropdown dropdown d-inline-block d-xl-none">
               <button type="button" class="dropdown-toggle" data-toggle="dropdown">
-                <img class="global-icon" src="assets/img/global.png" alt="global">
+                <img class="global-icon img-fluid" src="assets/img/global.png" alt="global">
               </button>
               <div class="dropdown-menu dropdown-menu-right">
                 <a class="dropdown-item" href="#">English</a>
@@ -115,11 +117,11 @@
     <div class="home-logo">
       <div class="container">
         <div class="d-flex flex-wrap justify-content-center align-items-center">
-          <img class="logo-img" src="assets/img/home/logo-1.png" alt="logo">
-          <img class="logo-img" src="assets/img/home/logo-2.png" alt="logo">
-          <img class="logo-img" src="assets/img/home/logo-3.png" alt="logo">
-          <img class="logo-img" src="assets/img/home/logo-4.png" alt="logo">
-          <img class="logo-img" src="assets/img/home/logo-5.png" alt="logo">
+          <img class="logo-img img-fluid" src="assets/img/home/logo-1.png" alt="logo">
+          <img class="logo-img img-fluid" src="assets/img/home/logo-2.png" alt="logo">
+          <img class="logo-img img-fluid" src="assets/img/home/logo-3.png" alt="logo">
+          <img class="logo-img img-fluid" src="assets/img/home/logo-4.png" alt="logo">
+          <img class="logo-img img-fluid" src="assets/img/home/logo-5.png" alt="logo">
         </div>
       </div>
     </div>
@@ -131,7 +133,7 @@
         </h2>
         <div class="service-group row">
           <div class="service-item col-md-4">
-            <img class="service-img" src="assets/img/home/service-1.png" alt="service">
+            <img class="service-img img-fluid" src="assets/img/home/service-1.png" alt="service">
             <h3 class="service-title">Line of Credit</h3>
             <p class="service-detail">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
@@ -139,7 +141,7 @@
             <a class="learn-more" href="#">Learn more</a>
           </div>
           <div class="service-item col-md-4">
-            <img class="service-img" src="assets/img/home/service-2.png" alt="service">
+            <img class="service-img img-fluid" src="assets/img/home/service-2.png" alt="service">
             <h3 class="service-title">Point of Sale</h3>
             <p class="service-detail">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
@@ -147,7 +149,7 @@
             <a class="learn-more" href="#">Learn more</a>
           </div>
           <div class="service-item col-md-4">
-            <img class="service-img" src="assets/img/home/service-3.png" alt="service">
+            <img class="service-img img-fluid" src="assets/img/home/service-3.png" alt="service">
             <h3 class="service-title">Installment Loans</h3>
             <p class="service-detail">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
@@ -177,11 +179,11 @@
               </p>
               <ul class="about-list">
                 <li class="about-item">
-                  <img class="check-icon mr-2" src="assets/img/home/check-icon.png" alt="check">
+                  <img class="check-icon img-fluid mr-2" src="assets/img/home/check-icon.png" alt="check">
                   lpsum dolor sit amet, consectetur adipiscing
                 </li>
                 <li class="about-item">
-                  <img class="check-icon mr-2" src="assets/img/home/check-icon.png" alt="check">
+                  <img class="check-icon img-fluid mr-2" src="assets/img/home/check-icon.png" alt="check">
                   lpsum dolor sit amet, consectetur adipiscing
                 </li>
               </ul>
@@ -228,7 +230,7 @@
               </p>
             </div>
             <div class="reviewer">
-              <img class="reviewer-img float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
+              <img class="reviewer-img img-fluid float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
               <h4 class="reviewer-name">John Doe</h4>
               <p class="reviewer-job">Traumatic Enhancement</p>
             </div>
@@ -241,7 +243,7 @@
               </p>
             </div>
             <div class="reviewer">
-              <img class="reviewer-img float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
+              <img class="reviewer-img img-fluid float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
               <h4 class="reviewer-name">John Doe</h4>
               <p class="reviewer-job">Traumatic Enhancement</p>
             </div>
@@ -254,7 +256,7 @@
               </p>
             </div>
             <div class="reviewer">
-              <img class="reviewer-img float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
+              <img class="reviewer-img img-fluid float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
               <h4 class="reviewer-name">John Doe</h4>
               <p class="reviewer-job">Traumatic Enhancement</p>
             </div>
@@ -267,7 +269,7 @@
               </p>
             </div>
             <div class="reviewer">
-              <img class="reviewer-img float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
+              <img class="reviewer-img img-fluid float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
               <h4 class="reviewer-name">John Doe</h4>
               <p class="reviewer-job">Traumatic Enhancement</p>
             </div>
@@ -280,7 +282,7 @@
               </p>
             </div>
             <div class="reviewer">
-              <img class="reviewer-img float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
+              <img class="reviewer-img img-fluid float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
               <h4 class="reviewer-name">John Doe</h4>
               <p class="reviewer-job">Traumatic Enhancement</p>
             </div>
@@ -293,7 +295,7 @@
               </p>
             </div>
             <div class="reviewer">
-              <img class="reviewer-img float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
+              <img class="reviewer-img img-fluid float-left" src="assets/img/home/reviewer.png" alt="reveiwer">
               <h4 class="reviewer-name">John Doe</h4>
               <p class="reviewer-job">Traumatic Enhancement</p>
             </div>
@@ -326,7 +328,7 @@
             <div class="blog-carousel-wrapper">
               <div id="blogCarousel" class="owl-carousel blog-carousel">
                 <div class="blog-carousel-item hover-move-up shadow">
-                  <img class="blog-img" src="assets/img/home/blog-1.jpg" alt="blog">
+                  <img class="blog-img img-fluid" src="assets/img/home/blog-1.jpg" alt="blog">
                   <div class="blog-content">
                     <a class="blog-btn" href="#">Financial</a>
                     <p class="blog-detail">
@@ -336,7 +338,7 @@
                   </div>
                 </div>
                 <div class="blog-carousel-item hover-move-up shadow">
-                  <img class="blog-img" src="assets/img/home/blog-2.jpg" alt="blog">
+                  <img class="blog-img img-fluid" src="assets/img/home/blog-2.jpg" alt="blog">
                   <div class="blog-content">
                     <a class="blog-btn" href="#">Financial</a>
                     <p class="blog-detail">
@@ -346,7 +348,7 @@
                   </div>
                 </div>
                 <div class="blog-carousel-item hover-move-up shadow">
-                  <img class="blog-img" src="assets/img/home/blog-1.jpg" alt="blog">
+                  <img class="blog-img img-fluid" src="assets/img/home/blog-1.jpg" alt="blog">
                   <div class="blog-content">
                     <a class="blog-btn" href="#">Financial</a>
                     <p class="blog-detail">
@@ -356,7 +358,7 @@
                   </div>
                 </div>
                 <div class="blog-carousel-item hover-move-up shadow">
-                  <img class="blog-img" src="assets/img/home/blog-2.jpg" alt="blog">
+                  <img class="blog-img img-fluid" src="assets/img/home/blog-2.jpg" alt="blog">
                   <div class="blog-content">
                     <a class="blog-btn" href="#">Financial</a>
                     <p class="blog-detail">
@@ -449,10 +451,10 @@
           <input class="email-input" type="email" placeholder="Enter email">
           <div class="social-links">
             <a class="social-link" href="#">
-              <img class="hover-move-up" src="assets/img/linkedin-icon.png" alt="linkedin">
+              <img class="img-fluid hover-move-up" src="assets/img/linkedin-icon.png" alt="linkedin">
             </a>
             <a class="social-link" href="#">
-              <img class="hover-move-up" src="assets/img/twitter-icon.png" alt="twitter">
+              <img class="img-fluid hover-move-up" src="assets/img/twitter-icon.png" alt="twitter">
             </a>
           </div>
         </div>
