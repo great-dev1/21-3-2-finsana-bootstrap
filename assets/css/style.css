@@ -57,7 +57,7 @@ a, a:hover {
 /* Navbar */
 
 .navbar {
-  padding: 20px 3vw;
+  padding: 10px 3vw;
   background-color: #fafbff;
 }
 
@@ -149,7 +149,7 @@ a, a:hover {
 
 @media only screen and (min-width: 1200px) {
   .navbar {
-    padding: 32px 10px;
+    padding: 15px 10px;
   }
   .navbar-brand {
     margin-right: 42px;
@@ -164,7 +164,7 @@ a, a:hover {
     right: 11.5vw;
   }
   .nav-btn {
-    padding: 17px 20px 20px;
+    padding: 8px 24px 10px;
     margin-left: 26px;
     margin-right: 16px;
     font-size: 19px;
@@ -180,7 +180,7 @@ a, a:hover {
 /* Home Hero Section */
 
 .home-hero {
-  margin-top: 85px;
+  margin-top: 63px;
   padding: 0 15px;
 }
 
@@ -198,27 +198,27 @@ a, a:hover {
 
 .hero-content {
   margin-top: 16vw;
-  margin-left: 6vw;
+  margin-bottom: 3vw;
 }
 
 .section-title {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 400;
   line-height: 1;
 }
 
 .hero-detail {
-  margin-top: 23px;
-  margin-bottom: 36px;
+  margin-top: 20px;
+  margin-bottom: 24px;
   font-size: 12px;
 }
 
 .hero-img {
   display: block;
-  width: 95%;
-  max-width: 480px;
+  max-width: 400px;
+  width: 100%;
   height: auto;
-  margin: 25px auto 0;
+  margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -226,29 +226,42 @@ a, a:hover {
     left: 0;
     width: 95%;
   }
-}
-
-@media only screen and (min-width: 992px) {
-  .home-hero {
-    margin-top: 120px;
-    padding: 0 30px;
-  }
   .hero-content {
-    margin-top: 9.6vw;
-    margin-left: 10.4vw;
+    margin-top: 7vw;
+    margin-left: 6vw;
   }
   .section-title {
-    font-size: 5.2vw;
+    font-size: 40px;
   }
   .hero-detail {
     margin-top: 23px;
-    margin-bottom: 58px;
+    margin-bottom: 30px;
     font-size: 19px;
   }
   .hero-img {
-    width: 98%;
-    max-width: 98%;
-    margin: 25px 0 0;
+    max-width: 100vw;
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home-hero {
+    margin-top: 86px;
+  }
+  .hero-content {
+    margin-top: 9vw;
+    margin-left: 9vw;
+  }
+  .section-title {
+    font-size: 5vw;
+  }
+  .hero-detail {
+    margin-bottom: 58px;
+  }
+  .hero-img {
+    width: auto;
+    height: calc(100vh - 86px);
   }
 }
 
